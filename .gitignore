@@ -26,7 +26,6 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 *.ipa
@@ -51,8 +50,10 @@ Plugins/*/Binaries/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
-Build/*/**
 !Build/*/PakBlacklist*.txt
+
+Build/Windows/Engine/*
+Build/Windows/survivalHorror/*
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
